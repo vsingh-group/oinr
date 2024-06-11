@@ -1,0 +1,1 @@
+Here, we demonstrate the benefits of O-INR on three different downstream tasks of interpolation in the latent space, computing derivatives using O-INR and then utilizing the weight space of O-INRs in classifying image dataset like MNIST and FashionMNIST. Please refer to individual folder for instructions on running the experiment.

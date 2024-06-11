@@ -1,0 +1,11 @@
+result/
+__pycache__/
+resultsINR_3D/
+*.png
+*.jpeg
+*.npy
+*.mat
+data/
+*.pt
+*.pyc
+*.__pycache__
