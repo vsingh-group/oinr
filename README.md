@@ -32,9 +32,9 @@ We have organized the code used for the paper according to the experiments. Plea
 If you find our paper helpful and/or use this code, please cite our publication at ICML 2024.
 ```
 @inproceedings{
-anonymous2024implicit,
+pal2024implicit,
 title={Implicit Representations via Operator Learning},
-author={Anonymous},
+author={Sourav Pal and Harshavardhan Adepu and Clinton Wang and Polina Golland and Vikas Singh},
 booktitle={Forty-first International Conference on Machine Learning},
 year={2024},
 url={https://openreview.net/forum?id=2W3KUAaZgO}
