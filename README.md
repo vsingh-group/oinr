@@ -1,5 +1,5 @@
 # Implicit Representations via Operator Learning (ICML 24) 
-[[Paper]](https://openreview.net/pdf?id=2W3KUAaZgO) [[Slide]]() [[Poster]]() [[Supplementary Material]](https://uwmadison.box.com/s/0hfedqrkdh2glmpph7jiv7wy9zl0ypt1)
+[[Paper]](https://openreview.net/pdf?id=2W3KUAaZgO) [[Slide]]() [[Poster]](/asset/poster.pdf) [[Supplementary Material]](https://uwmadison.box.com/s/0hfedqrkdh2glmpph7jiv7wy9zl0ypt1)
 
 #### Sourav Pal, Harshavardhan Adepu, Clinton Wang, Polina Golland, Vikas Singh
 ![OINR Pipeline](/asset/pipeline.jpeg?raw=true)
