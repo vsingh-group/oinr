@@ -1,5 +1,5 @@
 # Implicit Representations via Operator Learning (ICML 24) 
-[[Paper]](https://openreview.net/pdf?id=2W3KUAaZgO) [[Slide]]() [[Poster]](/asset/poster.pdf) [[Supplementary Material]](https://uwmadison.box.com/s/0hfedqrkdh2glmpph7jiv7wy9zl0ypt1)
+[[Paper]](https://proceedings.mlr.press/v235/pal24a.html) [[Slide]]() [[Poster]](/asset/poster.pdf) [[Supplementary Material]](https://uwmadison.box.com/s/0hfedqrkdh2glmpph7jiv7wy9zl0ypt1)
 
 #### Sourav Pal, Harshavardhan Adepu, Clinton Wang, Polina Golland, Vikas Singh
 ![OINR Pipeline](/asset/pipeline.jpeg?raw=true)
@@ -31,12 +31,21 @@ We have organized the code used for the paper according to the experiments. Plea
 ## Reference
 If you find our paper helpful and/or use this code, please cite our publication at ICML 2024.
 ```
-@inproceedings{
-pal2024implicit,
-title={Implicit Representations via Operator Learning},
-author={Sourav Pal and Harshavardhan Adepu and Clinton Wang and Polina Golland and Vikas Singh},
-booktitle={Forty-first International Conference on Machine Learning},
-year={2024},
-url={https://openreview.net/forum?id=2W3KUAaZgO}
+
+@InProceedings{pmlr-v235-pal24a,
+  title = 	 {Implicit Representations via Operator Learning},
+  author =       {Pal, Sourav and Adepu, Harshavardhan and Wang, Clinton and Golland, Polina and Singh, Vikas},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {39022--39041},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/pal24a/pal24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/pal24a.html},
+  abstract = 	 {The idea of representing a signal as the weights of a neural network, called <em>Implicit Neural Representations</em> (INRs), has led to exciting implications for compression, view synthesis and 3D volumetric data understanding. One problem in this setting pertains to the use of INRs for downstream processing tasks. Despite some conceptual results, this remains challenging because the INR for a given image/signal often exists in isolation. What does the neighborhood around a given INR correspond to? Based on this question, we offer an operator theoretic reformulation of the INR model, which we call Operator INR (or O-INR). At a high level, instead of mapping positional encodings to a signal, O-INR maps one function space to another function space. A practical form of this general casting is obtained by appealing to Integral Transforms. The resultant model does not need multi-layer perceptrons (MLPs), used in most existing INR models – we show that convolutions are sufficient and offer benefits including numerically stable behavior. We show that O-INR can easily handle most problem settings in the literature, and offers a similar performance profile as baselines. These benefits come with minimal, if any, compromise. Our code is available at https://github.com/vsingh-group/oinr.}
 }
+
 ```
